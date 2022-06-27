@@ -3,14 +3,17 @@ import { rem } from "polished";
 
 export const HomeWrapper = styled.main`
   background-color: #e7f0ff;
-  height: 100vh;
   display: block;
   padding-top: ${rem(80)};
 
+  @media (max-width: 768px) {
+    height: 100vh;
+  }
+  
   @media (min-width: 769px) {
-    /* max-width: 75%; */
     display: flex;
     justify-content: space-around;
+    height: 90vh;
   }
 `;
 

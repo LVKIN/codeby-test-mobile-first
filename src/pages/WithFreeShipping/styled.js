@@ -9,5 +9,6 @@ export const WithFreeShippingCart = styled.section`
     overflow-y: auto;
     max-width: ${rem(640)};
     margin: 0 auto;
+    box-shadow: 0px 0px 30px 5px rgba(138,138,138,0.6);
   }
 `;
